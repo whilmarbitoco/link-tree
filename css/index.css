@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("https://demo.whilmarbitoco.me/bg.jpg");
+    color: #fff;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile {
+    margin: 1rem 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile h1 {
+    font-size: 25px;
+}
+
+.content a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item {
+    width: 20rem;
+    margin: 1rem 0;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: rgb(249, 148, 23) 0px 3px 8px;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgb(249, 148, 23);
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 10px;
+}
+
+.item h3 {
+    font-size: 19px;
+}
+
+.item p {
+    font-size: 10px;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
